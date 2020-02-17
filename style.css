@@ -3,6 +3,11 @@ body {
   color: hsl(243, 87%, 12%);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 section {
   margin: 0 80px;
 }
@@ -68,8 +73,10 @@ button:active {
 }
 
 .attribution {
+  margin: 0;
   font-size: 11px;
   text-align: center;
+  color: #f8f8fe;
 }
 
 .attribution a {
@@ -80,6 +87,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
 }
 
 .nav-items {
@@ -165,7 +176,7 @@ nav {
   margin-top: 10px;
 }
 
-.ceo-name{
+.ceo-name {
   font-size: 0.9rem;
   margin-bottom: -10px;
 }
@@ -175,7 +186,7 @@ nav {
 }
 
 .ceo-wrap {
-  padding-left:65px;
+  padding-left: 65px;
   height: 4rem;
   margin-top: 20px;
 }
@@ -206,15 +217,27 @@ nav {
 }
 
 .bottom-logo {
-
 }
 
 .flex {
   display: flex;
+  margin-top: 30px;
 }
 
 .half ul {
   list-style: none;
   font-family: "Open Sans", sans-serif;
   padding-left: 0;
+}
+
+.half ul li {
+  margin: 20px 0;
+}
+
+.social-logo {
+  margin-right: 30px;
+}
+
+.contact-logo {
+  margin-right: 15px;
 }
