@@ -1,5 +1,7 @@
 # Frontend Mentor - Fylo landing page with two column layout
 
+## View the current version of the page I have created at https://snowjambi.github.io/fem-fylo-landing/
+
 ![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
